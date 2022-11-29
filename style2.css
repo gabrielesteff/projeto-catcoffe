@@ -1,0 +1,93 @@
+header
+{background: #bbbbbb;
+padding:20px 0;
+}
+.logo
+{width: 32%}
+.caixa {
+  position: relative;
+  width:940px;
+  margin: auto;
+}
+
+nav
+{position:absolute;
+top:110px;
+right:0}
+
+nav li
+{display:inline;
+ margin: 0 0 0 15px}
+
+nav a
+{ text-transform:uppercase;
+color:#000000;
+font-weight:bold;
+font-size: 22px;
+text-decoration: none}
+
+nav a:hover {
+color: #848c94;
+text-decoration: underline;
+}
+
+.produtos
+{width: 940px;
+margin: 0 auto;
+padding: 50px}
+
+
+
+.imagensprodutos1
+{width:90%}
+
+.imagensprodutos2
+{width:91%}
+  
+.imagensprodutos3
+{width:91%}
+
+.produtos li
+{display: inline-block;
+ text-align:center;
+ width:30%;
+ vertical-align :top;
+ margin: 0 1.5%;
+ padding: 50px 0px;
+ box-sizing: border-box;
+ border-color: #000000;
+ border-width: 3px;
+border-style: solid;
+    border-radius: 10px}
+
+.produtos li: hover
+{border-color: #ccb952}
+
+.produtos li:active
+{border-color: #f13737;}
+
+.produtos li:hover h2
+{font-size: 40px}
+
+.produtos li:hover img
+{width:100%}
+
+.produtos li:hover p1
+{font-size: 30px}
+
+.produtos li:hover p2
+{font-size: 38px}
+
+
+.produtos h2
+{font-size: 30px;
+font-weight: bold}
+
+.produtodescricao
+{font-size: 18px}
+
+.produtopreço {
+font-size: 22px;
+font-weight: bold;
+margin-top:10px;
+  
